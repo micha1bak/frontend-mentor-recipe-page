@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
 * {
   margin: 0;
   font-family: "Outfit", serif;
@@ -9,7 +19,7 @@ body {
   justify-content: center;
 }
 
-.recipe {
+main {
   width: 100%;
   max-width: 700px;
   border-radius: 0;
